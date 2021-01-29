@@ -12,7 +12,7 @@ const User = () => {
 	})
 	useEffect(() => {
 		loadUser()
-	}, [])
+	})
 
 	const { id } = useParams()
 	const loadUser = async () => {

@@ -19,7 +19,7 @@ const EditUser = () => {
 	const { name, username, email, phone, website } = user
 	useEffect(() => {
 		loadUser()
-	}, [])
+	})
 
 	const submitForm = async (e) => {
 		e.preventDefault(e)
